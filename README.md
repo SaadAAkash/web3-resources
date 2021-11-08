@@ -52,6 +52,31 @@
 * [YAKINDU Solidity Tools](https://github.com/Yakindu/solidity-ide) - Eclipse based IDE. Features context sensitive code completion and help, code navigation, syntax coloring, build in compiler, quick fixes and templates.
 * [Eth Fiddle](https://ethfiddle.com/) - IDE developed by [The Loom Network](https://loomx.io/) that allows you to write, compile and debug your smart contract. Easy to share and find code snippets.
 
+## Patterns & Best Practices
+
+##### Patterns for Smart Contract Development
+* [Dappsys: Safe, simple, and flexible Ethereum contract building blocks](https://github.com/dapphub/dappsys)
+    * provides building blocks for the [MakerDAO](https://github.com/makerdao/maker-otc) or [The TAO](https://github.com/ryepdx/the-tao)
+    * should be consulted before creating own, untested, solutions
+    * usage is described in [Dapp-a-day 1-10](https://steemit.com/@nikolai) and [Dapp-a-day 11-25](https://steemit.com/@nexusdev)
+* [OpenZeppelin Contracts: An open framework of reusable and secure smart contracts in the Solidity language.](https://github.com/OpenZeppelin/openzeppelin-contracts)
+    * Likely the most widely-used libraries and smart contracts
+    * Similar to Dappsys, more integrated into Truffle framework
+    * [Blog about Best Practices with Security Audits](https://blog.openzeppelin.com/)
+* [Advanced Workshop with Assembly](https://github.com/androlo/solidity-workshop)
+* [Simpler Ethereum Multisig](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) - especially section _Benefits_
+* [CryptoFin Solidity Auditing Checklist](https://github.com/cryptofinlabs/audit-checklist) - A checklist of common findings, and issues to watch out for when auditing a contract for a mainnet launch.
+* [aragonOS: A smart contract framework for building DAOs, Dapps and protocols](https://hack.aragon.org/docs/aragonos-intro.html)
+    * Upgradeability: Smart contracts can be upgraded to a newer version
+    * Permission control: By using the `auth` and `authP` modifiers, you can protect functionality so only other apps or entities can access it
+    * Forwarders: aragonOS apps can send their intent to perform an action to other apps, so that intent is forwarded if a set of requirements are met
+* [EIP-2535 Diamond Standard](https://eips.ethereum.org/EIPS/eip-2535)
+    * Organize contracts so they share the same contract storage and Ethereum address.
+    * Solves the 24KB max contract size limit.
+    * Upgrade diamonds by adding/replacing/removing any number of functions in a single transaction.
+    * Upgrades are transparent by recording them with a standard event.
+    * Get information about a diamond with events and/or four standard functions.
+* [Clean Contracts - A guide to writing clean code](https://www.wslyvh.com/clean-contracts/)
 
 ## Fungibility & NFT
 
