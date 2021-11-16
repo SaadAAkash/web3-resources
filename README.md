@@ -55,6 +55,7 @@
 ## Patterns & Best Practices
 
 ##### Patterns for Smart Contract Development
+* [Ethereum Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 * [Dappsys: Safe, simple, and flexible Ethereum contract building blocks](https://github.com/dapphub/dappsys)
     * provides building blocks for the [MakerDAO](https://github.com/makerdao/maker-otc) or [The TAO](https://github.com/ryepdx/the-tao)
     * should be consulted before creating own, untested, solutions
@@ -105,3 +106,18 @@
 
 ## Blockchain Resources
 - [Eth Dev Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list)
+
+## Dev Resources
+
+#### Wallet
+- [Metamask](https://metamask.io/)
+- [Celo Extension Wallet](https://chrome.google.com/webstore/detail/celoextensionwallet/kkilomkmpmkbdnfelcpgckmpcaemjcdh?hl=en)
+- [Valora](https://valoraapp.com/)
+- [Faucet to fund testnet with Celo](https://celo.org/developers/faucet)
+- Steps to add Custom RPC as Alphajores Network on Metamask:
+   - After opening up Metamask wallet account, open the Chrome extension & click on the network dropdown
+   - Click on "Custom RPC"
+   - Put "Alfajores Network" as Network Name (you can put anything else to your own convenience)
+   - Put this [URL](https://alfajores-forno.celo-testnet.org/) as New RPC URL
+   - Put 44787 as Chain ID
+   - Currency Symbol & Block Explorer URL are fields optional
