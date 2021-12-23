@@ -11,6 +11,12 @@
 * [OpenZeppelin Starter Kits](https://openzeppelin.com/starter-kits/) - An all-in-one starter box for developers to jumpstart their smart contract backed applications. Includes Truffle, OpenZeppelin SDK, the OpenZeppelin/contracts-ethereum-package EVM package of audited smart contract, a react-app and rimble for easy styling.
 * [useWeb3.xyz](https://useweb3.xyz/) — A curated overview of the best and latest resources on Ethereum, blockchain and Web3 development.
 
+#### Glossaries
+* [A Blockchain Glossary for Beginners](https://consensys.net/knowledge-base/a-blockchain-glossary-for-beginners/)
+* [Blockchain Glossary by Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)
+* [Crypto Glossary by Coinmarketcap](https://coinmarketcap.com/alexandria/glossary)
+* [Cryptocurrency, Bitcoin terms and abbreviation](https://clacified.com/tech-science/16/cryptocurrency-bitcoin-terms-and-abbreviation-explained)
+
 #### Ethereum Specific Starter Resources
 * [EthHub.io](https://docs.ethhub.io/) - Comprehensive crowdsourced overview of Ethereum- its history, governance, future plans and development resources.
 * [EthereumDev.io](https://ethereumdev.io) - The definitive guide for getting started with Ethereum smart contract programming.
