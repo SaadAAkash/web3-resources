@@ -113,7 +113,17 @@
 - [Metamask](https://metamask.io/)
 - [Celo Extension Wallet](https://chrome.google.com/webstore/detail/celoextensionwallet/kkilomkmpmkbdnfelcpgckmpcaemjcdh?hl=en)
 - [Valora](https://valoraapp.com/)
+
+#### Faucet
 - [Faucet to fund testnet with Celo](https://celo.org/developers/faucet)
+- [Faucet to fund 5 testnet with ETH, wETH, DAI & NFTs - Paradigm Faucet](https://faucet.paradigm.xyz/)
+   - Sign in via Twitter is a must
+   - Your Twitter account must have at least 1 Tweet, 15 followers, and be older than 1 month.
+   - The faucet drips 1 ETH, 1 wETH, 500 DAI, and 5 NFTs (ERC721).
+   - You will receive these tokens on Kovan, Görli, Optimistic Kovan, Polygon Mumbai and Avalanche Fuji.
+   - You can claim from the faucet once every 24 hours.
+
+#### Others
 - Steps to add Custom RPC as Alphajores Network on Metamask:
    - After opening up Metamask wallet account, open the Chrome extension & click on the network dropdown
    - Click on "Custom RPC"
