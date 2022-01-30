@@ -216,7 +216,9 @@ Others
 <details>
 <summary><strong>Briefly explain Consensus mechanism in Blockchain</strong></summary>
 
-Consensus is basically a set of protocols that regulate the blockchain network
+A consensus algorithm is a method through which all the peers of the blockchain network reach a standard agreement of the present state of a distributed ledger.
+It achieves high reliability and establishes trust between unknown peers in the distributed computing environment.
+
 There are different types of consensus algorithms:
    
 * Proof-of-Work(PoW)
@@ -226,7 +228,7 @@ There are different types of consensus algorithms:
 * Proof-of-Stake(PoS)
 * Proof-of-Authority
 * Proof-of-Burn 
-Unique Node Lists 
+* Unique Node Lists 
 * Proof-of-Weight 
 * Proof-of-Elapsed Time
 * SIEVE
@@ -243,4 +245,20 @@ Merkel Tree is a data structure that is used for verifying a block.
 * Each non-leaf node is a hash of its leaf node
 * The Merkel root or hash root is the final hash root of all the transaction hashes. It encompasses all the transactions that are underlying all the non-leaf nodes.
    
+The importance of a Merkle tree in the blockchain is that if anyone wants to verify the specific transaction in a block, they can download the chain of block headers instead of downloading every transaction and every block.
+   
+</details>
+
+<details>
+<summary><strong>In what order blocks are linked in blockchain?</strong></summary>
+All the blocks in the blockchain are linked in the backward order or each block links with its previous block.
+</details>
+
+<details>
+<summary><strong>What's a 51% attack/double-spend attack?</strong></summary>
+A 51% attack or double-spend attack occurs when a group of miners on a blockchain controls >50% of the network’s mining hash rate or computing power. They
+can reverse completed transactions & thus double-spend coins.
+   
+* In a PoW, Any malicious user would need to have 51% of computation power to solve the problem and thereby add the wrong block.
+* In a PoS, any malicious user would need to have 51% of the total money on the network to add a wrong block.   
 </details>
