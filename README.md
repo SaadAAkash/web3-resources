@@ -262,3 +262,10 @@ can reverse completed transactions & thus double-spend coins.
 * In a PoW, Any malicious user would need to have 51% of computation power to solve the problem and thereby add the wrong block.
 * In a PoS, any malicious user would need to have 51% of the total money on the network to add a wrong block.   
 </details>
+
+<details>
+<summary><strong>What does nonce mean?</strong></summary>
+   
+A nonce is an abbreviation for "number only used once". A blockchain nonce is a number added to a hashed—or encrypted—block in a blockchain. 
+A single-use arbitrary string or number generated for verification purposes to prevent replaying past transactions.
+</details>
