@@ -41,6 +41,96 @@ Ethereum Specific Starter Resources
 
 </details> 
 
+
+## Concepts
+
+<details>
+<summary>
+Fungibility
+</summary>
+
+- The ability of a good or asset to be interchanged with other individual goods or assets of the same type
+- It implies equal value between the assets
+- Simplifies the exchange and trade processes
+- To put it into perspective, the fungibility of money refers to the fact that all money is the same. It doesn't matter whether you have one $100 bill or one hundred $1 bills.  You can use both of them to purchase the same product
+</details> 
+
+<details>
+<summary>
+NFT
+</summary>
+   
+- NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
+- NFTs can be used to represent real-world items like artwork, real-estate, tangible items like collectibles
+- "Tokenizing" these real-world tangible assets allows them to be bought, sold, and traded more efficiently while reducing the probability of fraud
+
+</details> 
+
+
+<details>
+<summary>
+NFT Resources
+</summary>
+
+- [Investopedia](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
+- [The Verge](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
+- [Techradar](https://www.techradar.com/news/what-is-an-nft-non-fungible-tokens-explained-and-why-you-shouldnt-dismiss-this-fad)
+- [Mashable](https://mashable.com/article/nft-explainer-what-are-non-fungible-tokens/)
+- [Coindesk](https://www.coindesk.com/dapper-labs-coinlist-18m-token-sale-flow-blockchain)
+- [First Twitter post sold by Twitter CEO Jack to @sinaEstavi for $2,915,835.47](https://v.cent.co/tweet/20)
+- [NBA Topshot](https://www.nbatopshot.com)
+
+</details> 
+
+<details>
+<summary>
+DAO
+</summary>
+
+- [DAO definitions & differences between DAOs and traditional organizations](https://mirror.xyz/lisawocken.eth/DQ0N2xywJvbnog4jTD80R5orvReuOO4veZq3Muy7IqM)
+- [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
+   
+</details> 
+
+
+## Patterns & Best Practices
+
+<details>
+<summary>
+Patterns for Smart Contract Development
+</summary>
+
+* [Ethereum Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/)
+* [Dappsys: Safe, simple, and flexible Ethereum contract building blocks](https://github.com/dapphub/dappsys)
+    * provides building blocks for the [MakerDAO](https://github.com/makerdao/maker-otc) or [The TAO](https://github.com/ryepdx/the-tao)
+    * should be consulted before creating own, untested, solutions
+    * usage is described in [Dapp-a-day 1-10](https://steemit.com/@nikolai) and [Dapp-a-day 11-25](https://steemit.com/@nexusdev)
+* [OpenZeppelin Contracts: An open framework of reusable and secure smart contracts in the Solidity language.](https://github.com/OpenZeppelin/openzeppelin-contracts)
+    * Likely the most widely-used libraries and smart contracts
+    * Similar to Dappsys, more integrated into Truffle framework
+    * [Blog about Best Practices with Security Audits](https://blog.openzeppelin.com/)
+* [Advanced Workshop with Assembly](https://github.com/androlo/solidity-workshop)
+* [Simpler Ethereum Multisig](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) - especially section _Benefits_
+* [CryptoFin Solidity Auditing Checklist](https://github.com/cryptofinlabs/audit-checklist) - A checklist of common findings, and issues to watch out for when auditing a contract for a mainnet launch.
+* [aragonOS: A smart contract framework for building DAOs, Dapps and protocols](https://hack.aragon.org/docs/aragonos-intro.html)
+    * Upgradeability: Smart contracts can be upgraded to a newer version
+    * Permission control: By using the `auth` and `authP` modifiers, you can protect functionality so only other apps or entities can access it
+    * Forwarders: aragonOS apps can send their intent to perform an action to other apps, so that intent is forwarded if a set of requirements are met
+* [EIP-2535 Diamond Standard](https://eips.ethereum.org/EIPS/eip-2535)
+    * Organize contracts so they share the same contract storage and Ethereum address.
+    * Solves the 24KB max contract size limit.
+    * Upgrade diamonds by adding/replacing/removing any number of functions in a single transaction.
+    * Upgrades are transparent by recording them with a standard event.
+    * Get information about a diamond with events and/or four standard functions.
+* [Clean Contracts - A guide to writing clean code](https://www.wslyvh.com/clean-contracts/)
+</details>
+
+
+
+
+
+
+
 ## Developer Tools
 
 <details>
@@ -88,84 +178,9 @@ IDEs
 * [Eth Fiddle](https://ethfiddle.com/) - IDE developed by [The Loom Network](https://loomx.io/) that allows you to write, compile and debug your smart contract. Easy to share and find code snippets.
 </details>
 
-
-## Patterns & Best Practices
-
 <details>
 <summary>
-Patterns for Smart Contract Development
-</summary>
-
-* [Ethereum Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/)
-* [Dappsys: Safe, simple, and flexible Ethereum contract building blocks](https://github.com/dapphub/dappsys)
-    * provides building blocks for the [MakerDAO](https://github.com/makerdao/maker-otc) or [The TAO](https://github.com/ryepdx/the-tao)
-    * should be consulted before creating own, untested, solutions
-    * usage is described in [Dapp-a-day 1-10](https://steemit.com/@nikolai) and [Dapp-a-day 11-25](https://steemit.com/@nexusdev)
-* [OpenZeppelin Contracts: An open framework of reusable and secure smart contracts in the Solidity language.](https://github.com/OpenZeppelin/openzeppelin-contracts)
-    * Likely the most widely-used libraries and smart contracts
-    * Similar to Dappsys, more integrated into Truffle framework
-    * [Blog about Best Practices with Security Audits](https://blog.openzeppelin.com/)
-* [Advanced Workshop with Assembly](https://github.com/androlo/solidity-workshop)
-* [Simpler Ethereum Multisig](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) - especially section _Benefits_
-* [CryptoFin Solidity Auditing Checklist](https://github.com/cryptofinlabs/audit-checklist) - A checklist of common findings, and issues to watch out for when auditing a contract for a mainnet launch.
-* [aragonOS: A smart contract framework for building DAOs, Dapps and protocols](https://hack.aragon.org/docs/aragonos-intro.html)
-    * Upgradeability: Smart contracts can be upgraded to a newer version
-    * Permission control: By using the `auth` and `authP` modifiers, you can protect functionality so only other apps or entities can access it
-    * Forwarders: aragonOS apps can send their intent to perform an action to other apps, so that intent is forwarded if a set of requirements are met
-* [EIP-2535 Diamond Standard](https://eips.ethereum.org/EIPS/eip-2535)
-    * Organize contracts so they share the same contract storage and Ethereum address.
-    * Solves the 24KB max contract size limit.
-    * Upgrade diamonds by adding/replacing/removing any number of functions in a single transaction.
-    * Upgrades are transparent by recording them with a standard event.
-    * Get information about a diamond with events and/or four standard functions.
-* [Clean Contracts - A guide to writing clean code](https://www.wslyvh.com/clean-contracts/)
-</details>
-
-## Fungibility & NFT
-
-<details>
-<summary>
-Fungibility
-</summary>
-
-- The ability of a good or asset to be interchanged with other individual goods or assets of the same type
-- It implies equal value between the assets
-- Simplifies the exchange and trade processes
-- To put it into perspective, the fungibility of money refers to the fact that all money is the same. It doesn't matter whether you have one $100 bill or one hundred $1 bills.  You can use both of them to purchase the same product
-</details> 
-
-<details>
-<summary>
-NFT
-</summary>
-   
-- NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
-- NFTs can be used to represent real-world items like artwork, real-estate, tangible items like collectibles
-- "Tokenizing" these real-world tangible assets allows them to be bought, sold, and traded more efficiently while reducing the probability of fraud
-
-</details> 
-
-
-<details>
-<summary>
-NFT Resources
-</summary>
-
-- [Investopedia](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
-- [The Verge](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
-- [Techradar](https://www.techradar.com/news/what-is-an-nft-non-fungible-tokens-explained-and-why-you-shouldnt-dismiss-this-fad)
-- [Mashable](https://mashable.com/article/nft-explainer-what-are-non-fungible-tokens/)
-- [Coindesk](https://www.coindesk.com/dapper-labs-coinlist-18m-token-sale-flow-blockchain)
-- [First Twitter post sold by Twitter CEO Jack to @sinaEstavi for $2,915,835.47](https://v.cent.co/tweet/20)
-- [NBA Topshot](https://www.nbatopshot.com)
-
-</details> 
-
-## Tools
-
-<details>
-<summary>
-Etheremum
+Ethereum
 </summary>
    
 - [Eth Dev Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list)
