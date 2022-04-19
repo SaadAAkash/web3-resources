@@ -224,6 +224,25 @@ Others
 - Currency Symbol & Block Explorer URL are fields optional
 </details> 
 
+
+## Development Resources
+
+<summary>
+Upgradability & Proxy Patterns
+</summary>
+
+In a scenario of a deployed smart contract with user funds having a vulnerability, a hot fix should be required to be deployed without delay. Traditional smart contract patterns don’t allow such hot fixes. Instead, the developers need to deploy a new contract every time they want to add a feature or fix a bug. To address this, upgradability patterns have been introduced. Upgradability means that the client always interacts with the same contract (proxy), but the underlying logic can be changed (upgraded) whenever needed without losing any previous data. There are three types of proxy patterns:
+
+* Diamond pattern : EIP-2532
+* Transparent proxy pattern : EIP-1967
+* Universal upgradeable proxy standard (UUPS): EIP-1822
+
+OpenZeppelin suggests using the UUPS pattern as it is more gas efficient. One of the main caveats is that because the upgrades are done via the implementation contract with the help of upgradeTo method, there’s a higher risk of newer implementations to exclude the upgradeTo method, which may permanently kill the ability to upgrade the smart contract.
+
+Ref: [Using the UUPS proxy pattern to upgrade smart contracts - LogRocket](https://blog.logrocket.com/using-uups-proxy-pattern-upgrade-smart-contracts/)
+
+</details> 
+
 ## Q&As/Interview Questions 
 
 ### Fundamentals
