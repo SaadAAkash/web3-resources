@@ -227,6 +227,7 @@ Others
 
 ## Development Resources
 
+<details>
 <summary>
 Upgradability & Proxy Patterns
 </summary>
