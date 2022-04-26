@@ -26,7 +26,8 @@ Glossaries
 * [Blockchain Glossary by Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)
 * [Crypto Glossary by Coinmarketcap](https://coinmarketcap.com/alexandria/glossary)
 * [Cryptocurrency, Bitcoin terms and abbreviation](https://clacified.com/tech-science/16/cryptocurrency-bitcoin-terms-and-abbreviation-explained)
-
+* [Solidity Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet)
+   
 </details> 
 
 <details>
