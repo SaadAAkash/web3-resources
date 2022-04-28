@@ -241,21 +241,44 @@ Faucet
 
 <details>
 <summary>
-Others
+Others (Custom RPC, ABI, etc.)
 </summary>
    
-- Steps to add Custom RPC as Alphajores Network on Metamask:
+</br>
+
+<details>
+<summary>
+Steps to add Custom RPC as Alphajores Network on Metamask
+</summary>
+   
 - After opening up Metamask wallet account, open the Chrome extension & click on the network dropdown
 - Click on "Custom RPC"
 - Put "Alfajores Network" as Network Name (you can put anything else to your own convenience)
 - Put this [URL](https://alfajores-forno.celo-testnet.org/) as New RPC URL
 - Put 44787 as Chain ID
 - Currency Symbol & Block Explorer URL are fields optional
+   
+</details> 
+   
+<details>
+<summary>
+Convert a contract into an interface/Generate a Solidity interface from a given ABI
+</summary>
+   
+- Run forge inspect CONTRACT abi
+- Paste into https://gnidan.github.io/abi-to-sol
+
+Or,
+   - `forge inspect CONTRACT abi > abi.json`
+   - `cast interface abi.json > IFace.sol`
+
+References:
+1. [Transmissions11](https://twitter.com/transmissions11/status/1519487731331600384?s=20&t=eOkwjlPWNUfEr9QNlAavpg)
+2. [Cast Interface - Foundry Book](https://book.getfoundry.sh/reference/cast/cast-interface.html)
+
 </details> 
 
-
-
-
+</details> 
 
 ## Q&As/Interview Questions 
 
