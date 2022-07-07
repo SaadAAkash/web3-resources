@@ -348,6 +348,13 @@ Entities that can prove provenance and properties of online data from existing d
 It’s important to note that a blockchain oracle is not the data source itself, but rather the layer that queries, verifies, and authenticates external data sources and then relays that information. The data transmitted by oracles comes in many forms – price information, the successful completion of a payment, or the temperature measured by a sensor. 
 </details>
 
+<details>
+<summary><strong>What's the oracle problem & how to avoid it?</strong></summary>
+Blockchains cannot pull in data from or push data out to any external system as built-in functionality. At the same time, relying on a single source of truth to provide data is insecure and invalidates the decentralization of a smart contract. This is known as the oracle problem.
+   
+The entire point of a smart contract is to achieve determinism in accordance to the contract’s terms as opposed to probabilistic execution carried out by human enforcement. To achieve this end, the blockchain cannot have any single point of failure, i.e. a centralized blockchain oracle. So we can avoid the oracle problem by using a decentralized oracle that pulls from multiple data sources; if one data source is hacked or fails, the smart contract will still function as intended.
+</details>
+
 
 ## Readings & Summaries
 
