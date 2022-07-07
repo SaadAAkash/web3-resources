@@ -336,7 +336,7 @@ can reverse completed transactions & thus double-spend coins.
 
 <details>
 <summary><strong>What does nonce mean?</strong></summary>
-   
+
 A nonce is an abbreviation for "number only used once". A blockchain nonce is a number added to a hashed—or encrypted—block in a blockchain. 
 A single-use arbitrary string or number generated for verification purposes to prevent replaying past transactions.
 </details>
@@ -347,7 +347,6 @@ Entities that can prove provenance and properties of online data from existing d
 
 It’s important to note that a blockchain oracle is not the data source itself, but rather the layer that queries, verifies, and authenticates external data sources and then relays that information. The data transmitted by oracles comes in many forms – price information, the successful completion of a payment, or the temperature measured by a sensor. 
 </details>
-
 
 
 ## Readings & Summaries
@@ -397,3 +396,29 @@ Sources:
 
 </details> 
 
+<details>
+<summary>
+Chainlink 2.0: Next Steps in the Evolution of Decentralized Oracle Networks
+</summary>
+
+- Decentralized Oracle Networks (DON) are designed to enhance and extend the capabilities of smart contracts on a target blockchain or main chain through functions that are not available natively. 
+- They do so by providing the three basic resources found in computing systems:
+   - Networking
+   - Storage, and 
+   - Computation
+- A DON acts as a blockchain abstraction layer, providing interfaces to off-chain resources for both smart contracts and other systems.
+- DON improves the scaling of blockchain-enabled smart contracts by shifting the main locus for transaction processing from blockchain to itself
+- Decentralized Oracle Network Transaction-Execution Framework (DON-TEF) or TEF is a design pattern for the construction and execution of a performant hybrid smart contract
+- How TEF works
+   - An original target contract SC is refactored into a hybrid contract
+   - This refactoring produces the two interoperating pieces of the hybrid contract: 
+      - A MAINCHAIN contract/an anchor contract: custodies users’ assets, executes authoritative state transitions, and also
+provides guard rails (see Section 7.3) against failures in the DON 
+      - An executable on a DON: sequences transactions and provides associated oracle data for them. It can bundle
+transactions for the anchor contract
+- In TEF schematic, transactions pass through the mempool of a smart-contract enabled blockchain (MAINCHAIN) via Mempool Services (MS) to the DON
+
+Sources:
+[Chainlink whitepaper v2](https://research.chain.link/whitepaper-v2.pdf)
+
+</details> 
