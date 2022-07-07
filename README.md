@@ -340,3 +340,33 @@ can reverse completed transactions & thus double-spend coins.
 A nonce is an abbreviation for "number only used once". A blockchain nonce is a number added to a hashed—or encrypted—block in a blockchain. 
 A single-use arbitrary string or number generated for verification purposes to prevent replaying past transactions.
 </details>
+
+<details>
+<summary><strong>What's an oracle?</strong></summary>
+Entities that can prove provenance and properties of online data from existing data sources or legacy systems. They act as on-chain APIs you can query to get information into your smart contracts. Oracles can also be bi-directional, used to "send" data out to the real world.
+
+It’s important to note that a blockchain oracle is not the data source itself, but rather the layer that queries, verifies, and authenticates external data sources and then relays that information. The data transmitted by oracles comes in many forms – price information, the successful completion of a payment, or the temperature measured by a sensor. 
+</details>
+
+
+
+## Readings & Summaries
+
+<details>
+<summary>
+DECO: Liberating Web Data Using Decentralized Oracles for TLS
+</summary>
+
+- DECO (short for DECentralized Oracle) allows users to prove that a piece of data accessed via TLS came from a particular website and optionally prove statements about such data in zero-knowledge, keeping the data itself secret
+- A three-party handshake splits a shared TLS session key between provers and verifiers, where the prover uses a zero-knowledge proof to verify the data without revealing its type or contents
+- The prover cannot forge data, and the verifier cannot access additional data
+- Data validation happens on a public blockchain without revealing the data to anyone, keeping sensitive information secure
+- A single instance of DECO could enable anyone to become an oracle for any website
+- Works with modern TLS versions, requires no trusted hardware and no server-side modifications
+
+Sources:
+- [Whitepaper](https://dl.acm.org/doi/pdf/10.1145/3372297.3417239)
+- [Ari Juels DECO Presentation: Liberating Web Data Using Decentralized Oracles for TLS](https://youtu.be/zWTx1iQOCDM)
+- [DECO FAQ](https://www.deco.works/faq.html)
+
+</details> 
