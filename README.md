@@ -370,3 +370,30 @@ Sources:
 - [DECO FAQ](https://www.deco.works/faq.html)
 
 </details> 
+
+<details>
+<summary>
+Town Crier: An Authenticated Data Feed for Smart Contracts
+</summary>
+
+- Addresses the question of "Who can be trusted to provide data to smart contracts in a trustworthy way?"
+- The Town Crier (TC) system addresses this problem by using trusted hardware, namely the Intel SGX instruction set, a new capability in certain Intel CPUs.
+- How it works:
+   - When it receives a query from an application contract, the TC server fetches the requested data from the website and relays it back to the requesting contract.
+   - Query processing happens inside an SGX-protected environment known as an “enclave”.
+   - The requested data is fetched via a TLS connection to the target website that terminates inside the enclave
+   - SGX protections prevent even the operator of the server from peeking into the enclave or modifying its behavior, while use of TLS prevents tampering or eavesdropping on communications on the network
+- DECO and Town Crier
+   - The two systems have similar goals, but differ in their trust models and implementations
+   - Town Crier can achieve all of the functionality of DECO and more. 
+   - DECO constrains the Prover to interaction with a single Verifier. In contrast, Town Crier enables a Prover to generate a publicly verifiable proof on data fetched from a target server, i.e., a proof that anyone, even a smart contract, can verify directly.
+   - Town Crier can also securely ingest and make use of secrets (e.g., user credentials).
+- The main limitation of Town Crier is its reliance on TEEs.
+
+Sources:
+- [Town Crier Whitepaper](https://dl.acm.org/doi/pdf/10.1145/2976749.2978326)
+- [How Town Crier Works: The Big Picture](https://www.town-crier.org/get-started/)
+- [ChainLink 2.0 v2 Whitepaper](https://research.chain.link/whitepaper-v2.pdf)
+
+</details> 
+
