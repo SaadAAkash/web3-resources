@@ -47,6 +47,16 @@ Ethereum Specific Starter Resources
 
 <details>
 <summary>
+Digital Assets, Tokens & Coins
+</summary>
+
+-  An asset normally refers to a physical resource with economic or financial value which is expected to provide benefits to the owner(s) in the future. Assets can be either owned or controlled to produce value and can be either tangible or intangible.
+- A coin is the official digital currency used by a cryptocurrency platform (i.e. Ether/Eth in Ethereum, XRP in Ripple)
+- A token is a scarce digital asset that exists on top of an existing coin or blockchain
+</details> 
+
+<details>
+<summary>
 Fungibility
 </summary>
 
