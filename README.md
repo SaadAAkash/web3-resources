@@ -74,6 +74,7 @@ NFT
 - NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
 - NFTs can be used to represent real-world items like artwork, real-estate, tangible items like collectibles
 - "Tokenizing" these real-world tangible assets allows them to be bought, sold, and traded more efficiently while reducing the probability of fraud
+- Some have speculated that NFT can be viewed as a tradable API key with limited supply that gives you access to multiple services run by different companies
 
 </details> 
 
@@ -90,6 +91,7 @@ NFT Resources
 - [Coindesk](https://www.coindesk.com/dapper-labs-coinlist-18m-token-sale-flow-blockchain)
 - [First Twitter post sold by Twitter CEO Jack to @sinaEstavi for $2,915,835.47](https://v.cent.co/tweet/20)
 - [NBA Topshot](https://www.nbatopshot.com)
+- [Alex Atallah, Co-founder of OpenSea, on NFT](https://twitter.com/xanderatallah/status/1504916130535723009)
 
 </details> 
 
