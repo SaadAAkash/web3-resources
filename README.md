@@ -68,7 +68,7 @@ Fungibility
 
 <details>
 <summary>
-NFT
+Non-Fungible Token (NFT) 
 </summary>
    
 - NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
@@ -97,13 +97,24 @@ NFT Resources
 
 <details>
 <summary>
-DAO
+Decentralized Autonomous Organization (DAO)
 </summary>
 
 - [DAO definitions & differences between DAOs and traditional organizations](https://mirror.xyz/lisawocken.eth/DQ0N2xywJvbnog4jTD80R5orvReuOO4veZq3Muy7IqM)
 - [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
    
 </details> 
+
+
+<details>
+<summary>
+Regenerative Finance (ReFi) 
+</summary>
+
+- [Carbon Offsets: Last Week Tonight with John Oliver](https://www.youtube.com/watch?v=6p8zAbFKpW0)
+   
+</details> 
+
 
 
 ## Patterns & Best Practices
