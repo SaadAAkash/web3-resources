@@ -55,6 +55,18 @@ Digital Assets, Tokens & Coins
 - A token is a scarce digital asset that exists on top of an existing coin or blockchain
 </details> 
 
+
+<details>
+<summary>
+Protocol
+</summary>
+
+- A protocol is digital infrastructure with a set of rules for how people interact with it. Those rules determine how the system works.
+- A blockchain protocol is the rules that govern the blockchain network
+- Protocols aren't exclusive to cryptocurrency. They’re fundamental to how the internet works, governing the transmission of data from one computer to another. Email, for instance, is based on several sets of protocols. The HTTP stands for “hypertext transfer protocol.” 
+</details> 
+
+
 <details>
 <summary>
 Fungibility
@@ -100,8 +112,17 @@ NFT Resources
 Decentralized Autonomous Organization (DAO)
 </summary>
 
+- Decentralized means Online, global, uncensorable. Autonomous means Self-governing. And Organization means Coordination & collaboration around shared objectives
+- A DAO is an internet/online community with a shared interest and a shared crypto wallet/bank account
+- Cryptoeconomics and monetization strategies in DAOs is a key differentiating factor that make them different from traditional professional working groups and special interest communities
+
+Readings:
+- [DAO Canon by a16z](https://future.com/dao-canon/)
+- [A beginner’s guide to DAOs by Linda Xie](https://linda.mirror.xyz/Vh8K4leCGEO06_qSGx-vS5lvgUqhqkCz9ut81WwCP2o)
 - [DAO definitions & differences between DAOs and traditional organizations](https://mirror.xyz/lisawocken.eth/DQ0N2xywJvbnog4jTD80R5orvReuOO4veZq3Muy7IqM)
 - [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
+- [What is a DAO? by Aragon](https://blog.aragon.org/what-is-a-dao/)
+- [DAOs, DACs, DAs and More: An Incomplete Terminology Guide by Vitalik Buterin](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide)
    
 </details> 
 
