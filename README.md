@@ -1,6 +1,139 @@
-# Blockchain-Resources
+# Web3-Resources
 
-## Starter Resources
+## Basic Concepts
+
+<details>
+<summary>
+Decentralization
+</summary>
+Networks, tools & processes not controlled by a central entity
+</details> 
+
+<details>
+<summary>
+Blockchain
+</summary>
+
+- A database formed by a sequence of entries (`blocks`)
+- Blockchains are special computers that anyone can access but no one owns
+- A decentralized system of peer to peer (P2P) network
+- Key Features
+   - Immutable
+   - Traceable
+   - Secured
+
+</details> 
+
+
+<details>
+<summary>
+Permissionless & Trustless
+</summary>
+
+- Permissionless means the ability to participate in a network without the need for application or approval. 
+- Trustless means "trust" is established in a decentralized way, for example via decentralized identity and verifiable credentials.
+
+</details> 
+
+<details>
+<summary>
+Digital Assets, Tokens & Coins
+</summary>
+
+-  An asset normally refers to a physical resource with economic or financial value which is expected to provide benefits to the owner(s) in the future. Assets can be either owned or controlled to produce value and can be either tangible or intangible.
+- A coin is the official digital currency used by a cryptocurrency platform (i.e. Ether/Eth in Ethereum, XRP in Ripple)
+- A token is a scarce digital asset that exists on top of an existing coin or blockchain
+</details> 
+
+
+<details>
+<summary>
+Protocol
+</summary>
+
+- A protocol is digital infrastructure with a set of rules for how people interact with it. Those rules determine how the system works.
+- A blockchain protocol is the rules that govern the blockchain network
+- Protocols aren't exclusive to cryptocurrency. They’re fundamental to how the internet works, governing the transmission of data from one computer to another. Email, for instance, is based on several sets of protocols. The HTTP stands for “hypertext transfer protocol.” 
+</details> 
+
+
+<details>
+<summary>
+Fungibility
+</summary>
+
+- The ability of a good or asset to be interchanged with other individual goods or assets of the same type
+- It implies equal value between the assets
+- Simplifies the exchange and trade processes
+- To put it into perspective, the fungibility of money refers to the fact that all money is the same. It doesn't matter whether you have one $100 bill or one hundred $1 bills.  You can use both of them to purchase the same product
+</details> 
+
+<details>
+<summary>
+Non-Fungible Token (NFT) 
+</summary>
+
+- NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
+- NFTs can be used to represent real-world items like artwork, real-estate, tangible items like collectibles
+- "Tokenizing" these real-world tangible assets allows them to be bought, sold, and traded more efficiently while reducing the probability of fraud
+- Possession does not equal ownership. NFT decouples these two concepts.
+- NFTs are just digital abstractions used to represent assets that are one of a kind
+- NFTs can make fractionalized ownership more accessible. With NFTs, you can also prove that the item is real and tamper proof. This is an issue in the physical collectibles space.
+- Some have speculated that NFT can be viewed as a tradable API key with limited supply that gives you access to multiple services run by different companies [Alex Atallah, Co-Founder & CTO of OpenSea on Twitter](https://twitter.com/xanderatallah/status/1504916130535723009)
+
+</details> 
+
+
+<details>
+<summary>
+NFT Resources
+</summary>
+
+- [A beginner's guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)
+- [Investopedia](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
+- [The Verge](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
+- [Techradar](https://www.techradar.com/news/what-is-an-nft-non-fungible-tokens-explained-and-why-you-shouldnt-dismiss-this-fad)
+- [Mashable](https://mashable.com/article/nft-explainer-what-are-non-fungible-tokens/)
+- [Coindesk](https://www.coindesk.com/dapper-labs-coinlist-18m-token-sale-flow-blockchain)
+- [First Twitter post sold by Twitter CEO Jack to @sinaEstavi for $2,915,835.47](https://v.cent.co/tweet/20)
+- [NBA Topshot](https://www.nbatopshot.com)
+- [Alex Atallah, Co-founder of OpenSea, on NFT](https://twitter.com/xanderatallah/status/1504916130535723009)
+- [The Non-Fungible Token Bible: Everything you need to know about NFTs](https://opensea.io/blog/guides/non-fungible-tokens/)
+
+</details> 
+
+<details>
+<summary>
+Decentralized Autonomous Organization (DAO)
+</summary>
+
+- Decentralized means Online, global, uncensorable. Autonomous means Self-governing. And Organization means Coordination & collaboration around shared objectives
+- A DAO is an internet/online community with a shared interest and a shared crypto wallet/bank account
+- Cryptoeconomics and monetization strategies in DAOs is a key differentiating factor that make them different from traditional professional working groups and special interest communities
+
+Readings:
+- [DAO Canon by a16z](https://future.com/dao-canon/)
+- [A beginner’s guide to DAOs by Linda Xie](https://linda.mirror.xyz/Vh8K4leCGEO06_qSGx-vS5lvgUqhqkCz9ut81WwCP2o)
+- [DAO definitions & differences between DAOs and traditional organizations](https://mirror.xyz/lisawocken.eth/DQ0N2xywJvbnog4jTD80R5orvReuOO4veZq3Muy7IqM)
+- [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
+- [What is a DAO? by Aragon](https://blog.aragon.org/what-is-a-dao/)
+- [DAOs, DACs, DAs and More: An Incomplete Terminology Guide by Vitalik Buterin](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide)
+   
+</details> 
+
+
+<details>
+<summary>
+Regenerative Finance (ReFi) 
+</summary>
+
+- [Carbon Offsets: Last Week Tonight with John Oliver](https://www.youtube.com/watch?v=6p8zAbFKpW0)
+   
+</details> 
+
+
+
+## Starter Developer Resources
 
 <details>
 <summary>
@@ -40,100 +173,6 @@ Ethereum Specific Starter Resources
 * [Brownie](https://github.com/iamdefinitelyahuman/brownie) - Brownie is a Python framework for deploying, testing and interacting with Ethereum smart contracts.
 * [Ethereum Stack Exchange](https://ethereum.stackexchange.com/) - Post and search questions to help your development life cycle. 
 
-</details> 
-
-
-## Concepts
-
-<details>
-<summary>
-Digital Assets, Tokens & Coins
-</summary>
-
--  An asset normally refers to a physical resource with economic or financial value which is expected to provide benefits to the owner(s) in the future. Assets can be either owned or controlled to produce value and can be either tangible or intangible.
-- A coin is the official digital currency used by a cryptocurrency platform (i.e. Ether/Eth in Ethereum, XRP in Ripple)
-- A token is a scarce digital asset that exists on top of an existing coin or blockchain
-</details> 
-
-
-<details>
-<summary>
-Protocol
-</summary>
-
-- A protocol is digital infrastructure with a set of rules for how people interact with it. Those rules determine how the system works.
-- A blockchain protocol is the rules that govern the blockchain network
-- Protocols aren't exclusive to cryptocurrency. They’re fundamental to how the internet works, governing the transmission of data from one computer to another. Email, for instance, is based on several sets of protocols. The HTTP stands for “hypertext transfer protocol.” 
-</details> 
-
-
-<details>
-<summary>
-Fungibility
-</summary>
-
-- The ability of a good or asset to be interchanged with other individual goods or assets of the same type
-- It implies equal value between the assets
-- Simplifies the exchange and trade processes
-- To put it into perspective, the fungibility of money refers to the fact that all money is the same. It doesn't matter whether you have one $100 bill or one hundred $1 bills.  You can use both of them to purchase the same product
-</details> 
-
-<details>
-<summary>
-Non-Fungible Token (NFT) 
-</summary>
-   
-- NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
-- NFTs can be used to represent real-world items like artwork, real-estate, tangible items like collectibles
-- "Tokenizing" these real-world tangible assets allows them to be bought, sold, and traded more efficiently while reducing the probability of fraud
-- Some have speculated that NFT can be viewed as a tradable API key with limited supply that gives you access to multiple services run by different companies
-
-</details> 
-
-
-<details>
-<summary>
-NFT Resources
-</summary>
-
-- [Investopedia](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
-- [The Verge](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
-- [Techradar](https://www.techradar.com/news/what-is-an-nft-non-fungible-tokens-explained-and-why-you-shouldnt-dismiss-this-fad)
-- [Mashable](https://mashable.com/article/nft-explainer-what-are-non-fungible-tokens/)
-- [Coindesk](https://www.coindesk.com/dapper-labs-coinlist-18m-token-sale-flow-blockchain)
-- [First Twitter post sold by Twitter CEO Jack to @sinaEstavi for $2,915,835.47](https://v.cent.co/tweet/20)
-- [NBA Topshot](https://www.nbatopshot.com)
-- [Alex Atallah, Co-founder of OpenSea, on NFT](https://twitter.com/xanderatallah/status/1504916130535723009)
-
-</details> 
-
-<details>
-<summary>
-Decentralized Autonomous Organization (DAO)
-</summary>
-
-- Decentralized means Online, global, uncensorable. Autonomous means Self-governing. And Organization means Coordination & collaboration around shared objectives
-- A DAO is an internet/online community with a shared interest and a shared crypto wallet/bank account
-- Cryptoeconomics and monetization strategies in DAOs is a key differentiating factor that make them different from traditional professional working groups and special interest communities
-
-Readings:
-- [DAO Canon by a16z](https://future.com/dao-canon/)
-- [A beginner’s guide to DAOs by Linda Xie](https://linda.mirror.xyz/Vh8K4leCGEO06_qSGx-vS5lvgUqhqkCz9ut81WwCP2o)
-- [DAO definitions & differences between DAOs and traditional organizations](https://mirror.xyz/lisawocken.eth/DQ0N2xywJvbnog4jTD80R5orvReuOO4veZq3Muy7IqM)
-- [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
-- [What is a DAO? by Aragon](https://blog.aragon.org/what-is-a-dao/)
-- [DAOs, DACs, DAs and More: An Incomplete Terminology Guide by Vitalik Buterin](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide)
-   
-</details> 
-
-
-<details>
-<summary>
-Regenerative Finance (ReFi) 
-</summary>
-
-- [Carbon Offsets: Last Week Tonight with John Oliver](https://www.youtube.com/watch?v=6p8zAbFKpW0)
-   
 </details> 
 
 
