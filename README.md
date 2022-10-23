@@ -17,6 +17,8 @@ Readings:
 - [What Is Web 3.0 & Why It Matters](https://medium.com/fabric-ventures/what-is-web-3-0-why-it-matters-934eb07f3d2b)
 - [Why We Need Web 3.0 - Ethereum co-founder Gavin Wood](https://gavofyork.medium.com/why-we-need-web-3-0-5da4f2bf95ab)
 - [Web3 Landscape](https://twitter.com/sblikstad/status/1497221443200892936)
+- [Web3 Lingo](https://twitter.com/mishadavinci/status/1515673102566318082)
+- [A Primer to Web3](https://docs.google.com/presentation/d/1aIjYKKM64Eyp497-j6wkDjCsHBA3CbbWg25UQ9Why3g/edit#slide=id.g114bbdb82f0_12_117)
 
 </details> 
 
@@ -99,6 +101,7 @@ Non-Fungible Token (NFT)
 
 Readings:
 - [A beginner's guide to NFTs by Linda Xie](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)
+- [NFT Canon by a16z/Future](https://future.com/nft-canon/)
 - [Investopedia](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
 - [The Verge](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
 - [Techradar](https://www.techradar.com/news/what-is-an-nft-non-fungible-tokens-explained-and-why-you-shouldnt-dismiss-this-fad)
@@ -136,6 +139,22 @@ Readings:
 
 <details>
 <summary>
+Decentralized Finance (DeFi) 
+</summary>
+
+Financial instruments without relying on intermediaries such as brokerages, exchanges, or banks by using smart contracts on a blockchain
+
+Readings:
+- [DeFi: The Ultimate Beginner's Guide to Decentralized Finance](https://decrypt.co/resources/defi-ultimate-beginners-guide-decentralized-finance)
+- [What is DEFI? Decentralized Finance Explained.- Finematics](https://www.youtube.com/watch?v=k9HYC0EJU6E)
+- [Top 10 DeFi concepts everyone needs to know](https://zerion.io/blog/top-10-defi-concepts-everyone-needs-to-know/)
+- [Standardized Tokens, Synthetic stablecoins and Automated markets, lending & investment strategies](https://twitter.com/puntium/status/1493417236660318208)
+   
+</details> 
+
+
+<details>
+<summary>
 Regenerative Finance (ReFi) 
 </summary>
 
@@ -156,6 +175,13 @@ Readings:
 </details> 
 
 
+## Reading Lists
+
+- [Web3 Starter Pack](https://cryptosociety.notion.site/Web3-Starter-Pack-5a922714348e4a7cbaa45b2f0a8861bd)
+- [Nader’s web3 Resources for Developers](https://naderdabit.notion.site/Nader-s-web3-Resources-for-Developers-a200ed2ef21c4d578dc158df2b882c63)
+- [Gaby's Web3 Reading List](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b?v=c02511c4230c44ce9a1a03c9757da524)
+- [Justin’s Reading List](https://jkey-eth.notion.site/jkey-eth/7d63b8ddb7444adb86b5bbf782215e42?v=4afae3791307481b86cccd191917e19a)
+- [Web3athon/Project Cradl Reading List](https://project-cradl.notion.site/Web3athon-Reading-List-70ab71470ef046a88242ffa54774b160)
 
 ## Starter Developer Resources
 
