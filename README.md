@@ -73,6 +73,7 @@ Fungibility
 Non-Fungible Token (NFT) 
 </summary>
 
+- A unit of ownership on the internet [Ref](https://twitter.com/cdixon/status/1458950101905424387)
 - NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated
 - NFTs can be used to represent real-world items like artwork, real-estate, tangible items like collectibles
 - "Tokenizing" these real-world tangible assets allows them to be bought, sold, and traded more efficiently while reducing the probability of fraud
@@ -81,15 +82,8 @@ Non-Fungible Token (NFT)
 - NFTs can make fractionalized ownership more accessible. With NFTs, you can also prove that the item is real and tamper proof. This is an issue in the physical collectibles space.
 - Some have speculated that NFT can be viewed as a tradable API key with limited supply that gives you access to multiple services run by different companies [Alex Atallah, Co-Founder & CTO of OpenSea on Twitter](https://twitter.com/xanderatallah/status/1504916130535723009)
 
-</details> 
-
-
-<details>
-<summary>
-NFT Resources
-</summary>
-
-- [A beginner's guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)
+Readings:
+- [A beginner's guide to NFTs by Linda Xie](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)
 - [Investopedia](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
 - [The Verge](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq)
 - [Techradar](https://www.techradar.com/news/what-is-an-nft-non-fungible-tokens-explained-and-why-you-shouldnt-dismiss-this-fad)
@@ -97,10 +91,11 @@ NFT Resources
 - [Coindesk](https://www.coindesk.com/dapper-labs-coinlist-18m-token-sale-flow-blockchain)
 - [First Twitter post sold by Twitter CEO Jack to @sinaEstavi for $2,915,835.47](https://v.cent.co/tweet/20)
 - [NBA Topshot](https://www.nbatopshot.com)
-- [Alex Atallah, Co-founder of OpenSea, on NFT](https://twitter.com/xanderatallah/status/1504916130535723009)
 - [The Non-Fungible Token Bible: Everything you need to know about NFTs](https://opensea.io/blog/guides/non-fungible-tokens/)
+- [On NFT Twitter by 6529](https://twitter.com/punk6529/status/1433002033242595338?s=20&t=xpo7bJ_E0-64vd4cJWsdGg)
 
 </details> 
+
 
 <details>
 <summary>
@@ -114,6 +109,7 @@ Decentralized Autonomous Organization (DAO)
 Readings:
 - [DAO Canon by a16z](https://future.com/dao-canon/)
 - [A beginner’s guide to DAOs by Linda Xie](https://linda.mirror.xyz/Vh8K4leCGEO06_qSGx-vS5lvgUqhqkCz9ut81WwCP2o)
+- [Key learnings from DAOs](https://linda.mirror.xyz/BIasTPr7Ym_rfbhxpKjlMqKCz3qVMaFgQeV3EphkO-E)
 - [DAO definitions & differences between DAOs and traditional organizations](https://mirror.xyz/lisawocken.eth/DQ0N2xywJvbnog4jTD80R5orvReuOO4veZq3Muy7IqM)
 - [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
 - [What is a DAO? by Aragon](https://blog.aragon.org/what-is-a-dao/)
@@ -127,7 +123,19 @@ Readings:
 Regenerative Finance (ReFi) 
 </summary>
 
+- The abbreviation of ReFi is a signal to it’s origins in DeFi (decentralized finance)
+- Regenerative Finance uses money as a tool to solve climate change, environmental conservation and biodiversity
+- The primary type of ReFi instrument that in use today are carbon offset credits. 
+- ReFi projects aim to address the existing fraud or double-counting of carbon credits in unregulated carbon credit markets
+- On-chain carbon credits are traceable and immutable, meaning that no two people are able to claim the same credit twice
+- Thus, the ReFi movement uses programmable carbon to integrate climate finance into the fabric of economic transactions
+
+Readings:
+- [Regenerative Finance (ReFi) - CoinMarketCap](https://coinmarketcap.com/alexandria/glossary/regenerative-finance-refi)
+[What is ReFi? Part I — A tour through the climate crypto rabbit hole](https://je.mirror.xyz/S-dpms92hw6aiacUHoL3f_iAnLVDvbEUOXw7wpy7JaU)
+- [Regenerative Finance: Innovation for a sustainable future](https://medium.com/coinmonks/regenerative-finance-innovation-for-a-sustainable-future-315580e11f90)
 - [Carbon Offsets: Last Week Tonight with John Oliver](https://www.youtube.com/watch?v=6p8zAbFKpW0)
+- [What is ReFi — The intersection of crypto and climate](https://www.linkedin.com/pulse/what-refi-intersection-crypto-climate-mitchell-board/)
    
 </details> 
 
