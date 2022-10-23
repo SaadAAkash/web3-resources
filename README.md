@@ -4,9 +4,20 @@
 
 <details>
 <summary>
-Decentralization
+Decentralization & Web3
 </summary>
+
 Networks, tools & processes not controlled by a central entity
+   
+Readings:
+- [Why Decentralization Matters - Chris Dixon](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)
+- [The Meaning of Decentralization - Vitalik Buterin](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)
+- [Introduction to Web3 - Ethereum](https://ethereum.org/en/web3/)
+- [Why is Web3 important - Ethereum](https://ethereum.org/en/web3/#why-is-web3-important)
+- [What Is Web 3.0 & Why It Matters](https://medium.com/fabric-ventures/what-is-web-3-0-why-it-matters-934eb07f3d2b)
+- [Why We Need Web 3.0 - Ethereum co-founder Gavin Wood](https://gavofyork.medium.com/why-we-need-web-3-0-5da4f2bf95ab)
+- [Web3 Landscape](https://twitter.com/sblikstad/status/1497221443200892936)
+
 </details> 
 
 <details>
@@ -21,6 +32,10 @@ Blockchain
    - Immutable
    - Traceable
    - Secured
+
+Readings:
+- [A Blockchain Glossary for Beginners](https://consensys.net/knowledge-base/a-blockchain-glossary-for-beginners/)
+- [Blockchain Glossary by Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)
 
 </details> 
 
@@ -93,6 +108,7 @@ Readings:
 - [NBA Topshot](https://www.nbatopshot.com)
 - [The Non-Fungible Token Bible: Everything you need to know about NFTs](https://opensea.io/blog/guides/non-fungible-tokens/)
 - [On NFT Twitter by 6529](https://twitter.com/punk6529/status/1433002033242595338?s=20&t=xpo7bJ_E0-64vd4cJWsdGg)
+- [NFT Use Cases](https://twitter.com/FrancescoCiull4/status/1482588184898850816)
 
 </details> 
 
@@ -160,27 +176,14 @@ Common Starter Resources
    
 <details>
 <summary>
-Glossaries
+Cheatsheets, Terminologies, Glossary
 </summary>
    
 * [A Blockchain Glossary for Beginners](https://consensys.net/knowledge-base/a-blockchain-glossary-for-beginners/)
 * [Blockchain Glossary by Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)
 * [Crypto Glossary by Coinmarketcap](https://coinmarketcap.com/alexandria/glossary)
-* [Cryptocurrency, Bitcoin terms and abbreviation](https://clacified.com/tech-science/16/cryptocurrency-bitcoin-terms-and-abbreviation-explained)
 * [Solidity Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet)
    
-</details> 
-
-<details>
-<summary>
-Ethereum Specific Starter Resources
-</summary>
-   
-* [EthHub.io](https://docs.ethhub.io/) - Comprehensive crowdsourced overview of Ethereum- its history, governance, future plans and development resources.
-* [EthereumDev.io](https://ethereumdev.io) - The definitive guide for getting started with Ethereum smart contract programming.
-* [Brownie](https://github.com/iamdefinitelyahuman/brownie) - Brownie is a Python framework for deploying, testing and interacting with Ethereum smart contracts.
-* [Ethereum Stack Exchange](https://ethereum.stackexchange.com/) - Post and search questions to help your development life cycle. 
-
 </details> 
 
 
@@ -204,17 +207,13 @@ Patterns for Smart Contract Development
 * [Advanced Workshop with Assembly](https://github.com/androlo/solidity-workshop)
 * [Simpler Ethereum Multisig](https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037) - especially section _Benefits_
 * [CryptoFin Solidity Auditing Checklist](https://github.com/cryptofinlabs/audit-checklist) - A checklist of common findings, and issues to watch out for when auditing a contract for a mainnet launch.
-* [aragonOS: A smart contract framework for building DAOs, Dapps and protocols](https://hack.aragon.org/docs/aragonos-intro.html)
-    * Upgradeability: Smart contracts can be upgraded to a newer version
-    * Permission control: By using the `auth` and `authP` modifiers, you can protect functionality so only other apps or entities can access it
-    * Forwarders: aragonOS apps can send their intent to perform an action to other apps, so that intent is forwarded if a set of requirements are met
 * [EIP-2535 Diamond Standard](https://eips.ethereum.org/EIPS/eip-2535)
     * Organize contracts so they share the same contract storage and Ethereum address.
     * Solves the 24KB max contract size limit.
     * Upgrade diamonds by adding/replacing/removing any number of functions in a single transaction.
     * Upgrades are transparent by recording them with a standard event.
     * Get information about a diamond with events and/or four standard functions.
-* [Clean Contracts - A guide to writing clean code](https://www.wslyvh.com/clean-contracts/)
+* [Clean Contracts - A guide to writing clean code](https://www.wslyvh.com/clean-contracts/)   
 </details>
 
 
@@ -248,7 +247,22 @@ Security Best Practices & Resources
 </details> 
 
 
+<details>
+<summary>
+Technical Architecture of Full Stack dApps
+</summary>
+   
+* [The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
+</details> 
 
+<details>
+<summary>
+Gas Optimizations
+</summary>
+
+* [Gas Optimizations for the Rest of Us](https://m1guelpf.blog/d0gBiaUn48Odg8G2rhs3xLIjaL8MfrWReFkjg8TmDoM)
+* [A Collection of Gas Optimisation Tricks](https://forum.openzeppelin.com/t/a-collection-of-gas-optimisation-tricks/19966)
+</details> 
 
 
 ## Developer Tools
