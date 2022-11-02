@@ -174,14 +174,96 @@ Readings:
    
 </details> 
 
-
-## Reading Lists
+<details>
+<summary>
+Basic Concepts Reading Lists
+</summary>
 
 - [Web3 Starter Pack](https://cryptosociety.notion.site/Web3-Starter-Pack-5a922714348e4a7cbaa45b2f0a8861bd)
 - [Nader’s web3 Resources for Developers](https://naderdabit.notion.site/Nader-s-web3-Resources-for-Developers-a200ed2ef21c4d578dc158df2b882c63)
 - [Gaby's Web3 Reading List](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b?v=c02511c4230c44ce9a1a03c9757da524)
 - [Justin’s Reading List](https://jkey-eth.notion.site/jkey-eth/7d63b8ddb7444adb86b5bbf782215e42?v=4afae3791307481b86cccd191917e19a)
 - [Web3athon/Project Cradl Reading List](https://project-cradl.notion.site/Web3athon-Reading-List-70ab71470ef046a88242ffa54774b160)
+</details> 
+
+## The Web3 Stack
+
+
+<details>
+<summary>
+Web3 Stack by Layers
+</summary>
+
+The OSI and TCP/IP models are logical and conceptual model that defines network communication used by systems. The TCP/IP Protocol Stack is made up of 4 primary layers: 
+
+1. Application
+1. Transport
+1. Internet/Network
+1. Link/Network Interface/Physical 
+
+And the OSI divided the architecture into these 7 different layers:
+1. Application
+1. Presentation
+1. Session
+1. Transport
+1. Network
+1. Data Link
+1. Physical layers
+
+[Differences between OSI Reference Model & TCP/IP Coneptual Layes](https://www.guru99.com/layers-of-osi-model.html#15)
+
+For blockchain-based systems, the web3 stack can be divided into 5 layers based on the functionalities defined by the aforementioned models:
+1. Application
+1. Presentation (+Session) Layer
+1. Transport/Blockchain Interaction Layer
+1. Network/Protocol Layer
+1. Infrastructure
+
+### Application Layer
+	
+#### Acesss
+- Wallet: Metamask, Walletconnect, Coinbase Wallet, Rainbow, Phantom
+- Browser: Brave
+- Aggregators: Dappradar, Zapper
+      
+#### Use Case
+- DeFi: UniSwap, Aave
+- NFT: OpenSea, Raribale,
+- Content/Social: Lens, Mirror
+- Gaming: Decentraland, Axie Infinity
+
+### Presentation+Session Layer
+- Client: Web3JS, EthersJS
+- Development Environment: Hardhat, Truffle, Foundry, Brownie
+- File Storage: IPFS, Arweave, Filecoin, Filebase
+
+### Transport/Blockchain Interaction Layer
+- Data Access: The Graph, Chainlink, Ceramic, Alchemy
+- Block Explorer: Etherscan, Snowtrace, Polygonscan
+
+### Network/Protocol Layer
+- L1: Ethereum, Solana, Near, Avalanche, Polkadot, Celo
+- L2: Polygon, Arbitrum, ZkSync, Starknet
+- Bridge: Synapse, Anyswap, Hop
+
+### Infrastructure
+- Identity & Auth: ENS, SpruceID, Ceramik SelfID
+- Node Provider: Alchemy, Moralis, Infura, Thirdweb
+
+</details> 
+
+<details>
+<summary>
+Tech Stack Readings
+</summary>
+
+- [Alchemy - A Developer’s Guide to the Web3 Stack](https://alchemy.com/blog/web3-stack)
+- [Moralis - Web3 Stack](https://moralis.io/web3-stack-the-full-guide-to-web3-development/)
+- [Nader Dabit/Edge & Node - Defining the web3 stack](https://edgeandnode.com/blog/defining-the-web3-stack/)
+- [Coinbase - A simple guide to the Web3 stack](https://www.coinbase.com/blog/a-simple-guide-to-the-web3-stack)
+- [101 Blockchains - Web 3.0 Blockchain Technology Stack: The Comprehensive Guide](https://101blockchains.com/web-3-0-blockchain-technology-stack/)
+</details> 
+
 
 ## Starter Developer Resources
 
