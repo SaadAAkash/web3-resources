@@ -60,8 +60,14 @@ Digital Assets, Tokens & Coins
 -  An asset normally refers to a physical resource with economic or financial value which is expected to provide benefits to the owner(s) in the future. Assets can be either owned or controlled to produce value and can be either tangible or intangible.
 - A coin is the official digital currency used by a cryptocurrency platform (i.e. Ether/Eth in Ethereum, XRP in Ripple)
 - A token is a scarce digital asset that exists on top of an existing coin or blockchain
-</details> 
+</details>
 
+<details>
+<summary>
+Smart Contract
+</summary>
+A smart contract is a tamper-proof program that runs on a blockchain network when certain predefined conditions are met
+</details>
 
 <details>
 <summary>
@@ -179,15 +185,15 @@ Readings:
 Basic Concepts Reading Lists
 </summary>
 
-- [Web3 Starter Pack](https://cryptosociety.notion.site/Web3-Starter-Pack-5a922714348e4a7cbaa45b2f0a8861bd)
+- [Web3 Starter Pack - Crypto Society](https://cryptosociety.notion.site/Web3-Starter-Pack-5a922714348e4a7cbaa45b2f0a8861bd)
 - [Nader’s web3 Resources for Developers](https://naderdabit.notion.site/Nader-s-web3-Resources-for-Developers-a200ed2ef21c4d578dc158df2b882c63)
 - [Gaby's Web3 Reading List](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b?v=c02511c4230c44ce9a1a03c9757da524)
 - [Justin’s Reading List](https://jkey-eth.notion.site/jkey-eth/7d63b8ddb7444adb86b5bbf782215e42?v=4afae3791307481b86cccd191917e19a)
 - [Web3athon/Project Cradl Reading List](https://project-cradl.notion.site/Web3athon-Reading-List-70ab71470ef046a88242ffa54774b160)
+- [Web3 Resources - Adimverse Community](https://adimverse.notion.site/adimverse/Web3-Resources-857183f46f994eaeb724e99474885a15)
 </details> 
 
 ## The Web3 Stack
-
 
 <details>
 <summary>
@@ -266,6 +272,11 @@ Tech Stack Readings
 
 
 ## Starter Developer Resources
+- [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
+- [Hello World Smart COntract for Beginners - Ethereum](https://ethereum.org/en/developers/tutorials/hello-world-smart-contract/)
+- [Deploy Your First Smart Contract - Chainlink](https://docs.chain.link/docs/deploy-your-first-contract/)
+- [Blockchain Education](https://www.blockchain.education/)
+- [Public Good Blockchain Development Guide](https://www.devpill.me/)
 
 <details>
 <summary>
@@ -279,6 +290,7 @@ Common Starter Resources
 * [Cryptotux](https://cryptotux.org/) - A Linux image ready to be imported in VirtualBox that includes the development tools mentionned above
 * [OpenZeppelin Starter Kits](https://openzeppelin.com/starter-kits/) - An all-in-one starter box for developers to jumpstart their smart contract backed applications. Includes Truffle, OpenZeppelin SDK, the OpenZeppelin/contracts-ethereum-package EVM package of audited smart contract, a react-app and rimble for easy styling.
 * [useWeb3.xyz](https://useweb3.xyz/) — A curated overview of the best and latest resources on Ethereum, blockchain and Web3 development.
+* [Learn to Code Blockchain DApps by Building Simple Games - CryptoZombies](https://cryptozombies.io/)
 
 </details>   
    
