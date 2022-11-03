@@ -30,6 +30,7 @@ Blockchain
 - A database formed by a sequence of entries (`blocks`)
 - Blockchains are special computers that anyone can access but no one owns
 - A decentralized system of peer to peer (P2P) network
+- Immutable, shared & distributed ledger
 - Key Features
    - Immutable
    - Traceable
@@ -38,6 +39,8 @@ Blockchain
 Readings:
 - [A Blockchain Glossary for Beginners](https://consensys.net/knowledge-base/a-blockchain-glossary-for-beginners/)
 - [Blockchain Glossary by Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)
+- [Blockchain 101 - A Visual Demo](https://andersbrownworth.com/blockchain/)
+- [Blockchain 101 - Public/Private Keys & Signing - A Visual Demo](https://andersbrownworth.com/blockchain/public-private-keys/)
 
 </details> 
 
@@ -277,10 +280,17 @@ Tech Stack Readings
 - [Deploy Your First Smart Contract - Chainlink](https://docs.chain.link/docs/deploy-your-first-contract/)
 - [Blockchain Education](https://www.blockchain.education/)
 - [Public Good Blockchain Development Guide](https://www.devpill.me/)
+- [useWeb3.xyz - A curated overview of the best and latest resources on Ethereum, blockchain and Web3 development](https://useweb3.xyz/)
+- [CryptoZombies - Learn to Code Blockchain DApps by Building Simple Games](https://cryptozombies.io/)
+- [Figment - The Web 3 education platform for developers, by developers.]([https://cryptozombies.io/](https://learn.figment.io/))
+- [a16z Crypto Startup School](https://a16z.com/crypto-startup-school/)
+- [Consensys Academy](https://courses.consensys.net/collections)
+- [Binance Academy](https://academy.binance.com/)
+- [Ledger Academy](https://www.ledger.com/academy)
 
 <details>
 <summary>
-Common Starter Resources
+Common Developer Resources
 </summary>
    
 * [Solidity](https://soliditylang.org/) - The most popular smart contract language.
@@ -289,8 +299,6 @@ Common Starter Resources
 * [Hardhat](https://hardhat.org/) - Flexible, extensible and fast Ethereum development environment.
 * [Cryptotux](https://cryptotux.org/) - A Linux image ready to be imported in VirtualBox that includes the development tools mentionned above
 * [OpenZeppelin Starter Kits](https://openzeppelin.com/starter-kits/) - An all-in-one starter box for developers to jumpstart their smart contract backed applications. Includes Truffle, OpenZeppelin SDK, the OpenZeppelin/contracts-ethereum-package EVM package of audited smart contract, a react-app and rimble for easy styling.
-* [useWeb3.xyz](https://useweb3.xyz/) — A curated overview of the best and latest resources on Ethereum, blockchain and Web3 development.
-* [Learn to Code Blockchain DApps by Building Simple Games - CryptoZombies](https://cryptozombies.io/)
 
 </details>   
    
@@ -473,7 +481,7 @@ Others (Custom RPC, ABI, etc.)
 
 <details>
 <summary>
-Steps to add Custom RPC as Alphajores Network on Metamask
+Steps to add Custom RPC (i.e. Celo Alfajores Network) on Metamask
 </summary>
    
 - After opening up Metamask wallet account, open the Chrome extension & click on the network dropdown
