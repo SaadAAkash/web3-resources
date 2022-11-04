@@ -185,7 +185,7 @@ Readings:
 
 <details>
 <summary>
-Basic Concepts Reading Lists
+Basic Web3 Concepts Reading Lists
 </summary>
 
 - [Web3 Starter Pack - Crypto Society](https://cryptosociety.notion.site/Web3-Starter-Pack-5a922714348e4a7cbaa45b2f0a8861bd)
@@ -195,6 +195,35 @@ Basic Concepts Reading Lists
 - [Web3athon/Project Cradl Reading List](https://project-cradl.notion.site/Web3athon-Reading-List-70ab71470ef046a88242ffa54774b160)
 - [Web3 Resources - Adimverse Community](https://adimverse.notion.site/adimverse/Web3-Resources-857183f46f994eaeb724e99474885a15)
 </details> 
+
+
+<details>
+<summary>
+Wait. Web5?
+</summary>
+
+Components:
+1. Decentralized Identifiers
+1. Verifiable Credentials
+1. Decentralized Web Nodes 
+
+Readings:
+- [What is Web5 - TBD](https://developer.tbd.website/blog/what-is-web5/)
+- [Web5 Project - TBD](https://developer.tbd.website/projects/web5/)
+- [Web5 Public Intro - TBD Developers](https://developer.tbd.website/docs/Decentralized%20Web%20Platform%20-%20Public.pdf)
+- [Web5 Explained: What It Is and How It Is Different From Web3](https://beincrypto.com/learn/web5-explained/)
+- [Web5 & Identity Layer - Angie Jones](https://angiejones.tech/web5/)
+</details> 
+
+
+<details>
+<summary>
+Critiques
+</summary>
+
+- [My first impressions of web3 - Moxie, Founder of SignalApp](https://moxie.org/2022/01/07/web3-first-impressions.html)
+- [Awesome critique of crypto/web3](https://github.com/life-itself/web3)
+- [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
 ## The Web3 Stack
 
