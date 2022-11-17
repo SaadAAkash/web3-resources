@@ -225,6 +225,8 @@ Critiques
 - [Awesome critique of crypto/web3](https://github.com/life-itself/web3)
 - [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
+</details> 
+
 ## The Web3 Stack
 
 <details>
@@ -304,18 +306,25 @@ Tech Stack Readings
 
 
 ## Starter Developer Resources
+
+<details>
+<summary>
+Tutorials
+</summary>
 - [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
-- [Hello World Smart COntract for Beginners - Ethereum](https://ethereum.org/en/developers/tutorials/hello-world-smart-contract/)
+- [Hello World Smart Contract for Beginners - Ethereum](https://ethereum.org/en/developers/tutorials/hello-world-smart-contract/)
 - [Deploy Your First Smart Contract - Chainlink](https://docs.chain.link/docs/deploy-your-first-contract/)
 - [Blockchain Education](https://www.blockchain.education/)
 - [Public Good Blockchain Development Guide](https://www.devpill.me/)
 - [useWeb3.xyz - A curated overview of the best and latest resources on Ethereum, blockchain and Web3 development](https://useweb3.xyz/)
 - [CryptoZombies - Learn to Code Blockchain DApps by Building Simple Games](https://cryptozombies.io/)
-- [Figment - The Web 3 education platform for developers, by developers.]([https://cryptozombies.io/](https://learn.figment.io/))
+- [Figment - The Web 3 education platform for developers, by developers.](https://learn.figment.io/)
 - [a16z Crypto Startup School](https://a16z.com/crypto-startup-school/)
 - [Consensys Academy](https://courses.consensys.net/collections)
 - [Binance Academy](https://academy.binance.com/)
 - [Ledger Academy](https://www.ledger.com/academy)
+</details>
+
 
 <details>
 <summary>
