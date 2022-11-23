@@ -142,6 +142,7 @@ Readings:
 - [The New Creator Economy - DAOs, Community Ownership, and Cryptoeconomics](https://dev.to/dabit3/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics-lnl)
 - [What is a DAO? by Aragon](https://blog.aragon.org/what-is-a-dao/)
 - [DAOs, DACs, DAs and More: An Incomplete Terminology Guide by Vitalik Buterin](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide)
+- [Decentralized Autonomous Organizations: Beyond the Hype - Whitepaper - World Economic Forum](https://www.weforum.org/whitepapers/decentralized-autonomous-organizations-beyond-the-hype/)
    
 </details> 
 
@@ -226,6 +227,25 @@ Critiques
 - [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
 </details> 
+
+
+<details>
+<summary>
+Zero Knowledge Proof (ZKP)
+</summary>
+
+- [Zero Knowledge Canon, part 1 & 2](https://a16zcrypto.com/zero-knowledge-canon/)
+- [Abstract examples to comprehend ZKP](https://en.wikipedia.org/wiki/Zero-knowledge_proof#Abstract_examples)
+- [Understanding Zero-Knowledge Proof Technology](https://academy.moralis.io/blog/understanding-zero-knowledge-proof-technology)
+- [Types & Examples of ZK Projects](https://blog.chain.link/zero-knowledge-projects/)
+- [Awesome zero knowledge proofs (zkp)](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
+- [Video/Talk - Introduction to Zero Knowledge Proofs' - EthGlobal 2021](https://www.youtube.com/watch?v=BT88s7_VtC8)
+- [Slides - Introduction to Zero Knowledge Proofs - EthGlobal 21](https://docs.google.com/presentation/d/10JmV3-VxPtdHlrX4MSu-ERH82IonZeLrDdLZ1lJ6Wlc/mobilepresent?slide=id.p)
+
+
+</details> 
+
+
 
 ## The Web3 Stack
 
