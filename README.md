@@ -331,6 +331,7 @@ Tech Stack Readings
 <summary>
 Tutorials
 </summary>
+
 - [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 - [Hello World Smart Contract for Beginners - Ethereum](https://ethereum.org/en/developers/tutorials/hello-world-smart-contract/)
 - [Deploy Your First Smart Contract - Chainlink](https://docs.chain.link/docs/deploy-your-first-contract/)
